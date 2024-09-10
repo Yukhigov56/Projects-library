@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body class="bodyMain">
+    <div class="block-btn">
+      <button id="openDialog">Open</button>
+    </div>
+
+    <dialog id="myDialog">
+      <h1>Add book</h1>
+      <input type="text" class="my-inpOne" required placeholder="title" />
+      <input type="text" class="my-inpTwo" required placeholder="author" />
+      <input type="number" class="my-inpThree" required placeholder="pages" />
+      <button id="closeDialog">Close</button>
+      <button id="ready">Submit</button>
+    </dialog>
+
+    <script src="./script.js"></script>
+  </body>
+</html>

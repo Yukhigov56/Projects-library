@@ -1,0 +1,94 @@
+#myDialog {
+  width: 250px;
+  height: 250px;
+}
+#myDialog h1 {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.block-btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+.block-btn button {
+  font-size: 20px;
+  width: 100px;
+  height: 35px;
+}
+
+input {
+  width: 230px;
+  height: 35px;
+  margin-top: 10px;
+}
+
+#closeDialog {
+  width: 100px;
+  height: 35px;
+  margin-top: 20px;
+}
+
+#ready {
+  margin-top: 20px;
+  width: 100px;
+  height: 35px;
+  margin-left: 33px;
+}
+
+.book-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-top: 30px;
+  width: 100%;
+  height: 100%;
+}
+
+.book-card {
+  padding: 10px;
+  width: 250px;
+  height: 280px;
+  box-shadow: 1px 1px 1px 1px rgb(43, 40, 40);
+  border-radius: 5px;
+}
+
+.book-card h3 {
+  margin-top: 5px;
+  text-align: center;
+  padding: 0;
+  font-size: 25px;
+}
+.book-card p {
+  margin: 10px;
+  font-size: 25px;
+}
+
+.book-card button {
+  display: block;
+  font-size: 17px;
+  width: 100%;
+  height: 40px;
+}
+
+.book-card .cardBtn1 {
+  color: white;
+  border: none;
+  background-color: rgb(110, 37, 37);
+  margin-top: 18%;
+  transition: 0.3s;
+}
+
+.book-card .cardBtn2:hover {
+  background-color: #652323;
+  color: white;
+}
+
+.book-card .cardBtn2 {
+  background-color: #c9c7c7;
+  border: none;
+  margin-top: 10px;
+  transition: 0.3s;
+}
