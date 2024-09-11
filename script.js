@@ -29,6 +29,10 @@ openDialogButton.addEventListener("click", () => {
   myDialog.showModal();
 });
 
+closeDialogButton.addEventListener("click", () => {
+  myDialog.close();
+});
+
 const body = document.querySelector(".bodyMain");
 const bookContainer = document.createElement("div");
 bookContainer.classList = "book-container";
@@ -52,8 +56,13 @@ function objectOnPage() {
   });
 
   btn1.addEventListener("click", () => {
-    btn1.textContent = "Read";
-    btn1.style.backgroundColor = "green";
+    if (btn1.textContent === "Read") {
+      btn1.textContent = "Not read";
+      btn1.style.backgroundColor = "rgb(110, 37, 37)";
+    } else {
+      btn1.textContent = "Read";
+      btn1.style.backgroundColor = "green";
+    }
   });
 
   arrBook.forEach((book) => {
